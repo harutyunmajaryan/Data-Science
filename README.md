@@ -3,12 +3,14 @@ Methodology
 1. Time Series Visualisation
 Line plots were produced for each variable across the full 1948–2023 period, allowing visual inspection of long-term trends, seasonal cycles, and periods of notable change.
 
-3. Distribution Analysis
+2. Distribution Analysis
 Histograms were generated for each variable to examine the shape of their distributions. Alongside visual inspection, the Shapiro-Wilk test was applied to formally assess normality. All five variables rejected the null hypothesis of normality (p < 0.05), confirming that the data does not follow a normal distribution. This ruled out parametric tests and motivated the use of non-parametric methods throughout the analysis.
-4. Correlation & Relationship Analysis
-5. 
-Pairwise relationships between all five variables were explored to understand how they interact. Strong negative correlations were observed between temperature variables and air frost (as expected), while rainfall showed little correlation with the other variables.
-6. Null Hypothesis Testing
+
+3. Correlation & Relationship Analysis
+
+4. Pairwise relationships between all five variables were explored to understand how they interact. Strong negative correlations were observed between temperature variables and air frost (as expected), while rainfall showed little correlation with the other variables.
+  
+5. Null Hypothesis Testing
 To assess whether each variable has changed significantly over time, the observation period was split into an early period (1948–1985) and a late period (1986–2023). The Mann-Whitney U test — a non-parametric test for comparing two independent samples — was then applied to each variable.
 The null hypothesis for each test was:
 
